@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 9063874120327120280}
   - component: {fileID: 9063874120327120283}
   - component: {fileID: 9063874120327120282}
+  - component: {fileID: -7888674121057328904}
   m_Layer: 0
   m_Name: Shootable Cube
   m_TagString: Untagged
@@ -227,3 +228,18 @@ MonoBehaviour:
   health: 100
   damageSound: {fileID: 8300000, guid: 51773903528d04c3db57e156c8e43219, type: 3}
   deathSound: {fileID: 8300000, guid: e2965947fab2e43e88f6993414f07a13, type: 3}
+--- !u!114 &-7888674121057328904
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9063874120327120293}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5ee695f69db54b1bb9f8e73ce842d5e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scoreAmount: 1
+  creationSound: {fileID: 0}
+  scoringSound: {fileID: 0}

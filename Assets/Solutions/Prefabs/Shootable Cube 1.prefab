@@ -226,8 +226,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 100
-  damageSound: {fileID: 8300000, guid: 51773903528d04c3db57e156c8e43219, type: 3}
-  deathSound: {fileID: 8300000, guid: e2965947fab2e43e88f6993414f07a13, type: 3}
+  damageSound: {fileID: 8300000, guid: 88cd51515b7e84558a5350101c297949, type: 3}
+  deathSound: {fileID: 8300000, guid: 12fb57919e3594130ab70089a9a40b60, type: 3}
 --- !u!114 &5890026422718408420
 MonoBehaviour:
   m_ObjectHideFlags: 0

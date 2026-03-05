@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 5184309176125827841}
   - component: {fileID: 5184309176125827846}
   - component: {fileID: 5184309176125827847}
+  - component: {fileID: 7507404718845361026}
   m_Layer: 0
   m_Name: PickUp Cube
   m_TagString: Untagged
@@ -226,3 +227,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pickupSound: {fileID: 8300000, guid: 8096131dc296447b89b5fc3c874ba7cc, type: 3}
   dropSound: {fileID: 8300000, guid: 1b628f12854d0481bae155495dd4bbae, type: 3}
+--- !u!114 &7507404718845361026
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5184309176125827844}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5ee695f69db54b1bb9f8e73ce842d5e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scoreAmount: 1
+  creationSound: {fileID: 8300000, guid: 88cd51515b7e84558a5350101c297949, type: 3}
+  scoringSound: {fileID: 0}
